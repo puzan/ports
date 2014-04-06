@@ -1,0 +1,2 @@
+httptunnel 422
+variants universal portdir net/httptunnel description {Tunnel over HTTP} homepage http://www.nocrew.org/software/httptunnel.html epoch 0 platforms darwin name httptunnel long_description {httptunnel creates a bidirectional virtual data connection tunnelled in HTTP requests. The HTTP requests can be sent via an HTTP proxy if so desired.} license unknown maintainers gmail.com:izonov categories net version 3.3 revision 0

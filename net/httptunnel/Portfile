@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+
+PortSystem 1.0
+
+name             httptunnel
+version          3.3
+categories       net
+platforms        darwin
+maintainers      gmail.com:izonov
+
+description      Tunnel over HTTP
+long_description httptunnel creates a bidirectional virtual data connection \
+    tunnelled in HTTP requests. The HTTP requests can be sent via an HTTP \
+    proxy if so desired.
+
+homepage         http://www.nocrew.org/software/httptunnel.html
+master_sites     ftp://ftp.nocrew.org/pub/nocrew/unix/ \
+    http://www.nocrew.org/software/httptunnel/
+
+checksums        rmd160 0e0a34dbe122510b19a2e37f3dcaeab8ff7cae5d \
+    sha256 142f82b204876c2aa90f19193c7ff78d90bb4c2cba99dfd4ef625864aed1c556
+
+configure.args   --mandir=${prefix}/share/man
